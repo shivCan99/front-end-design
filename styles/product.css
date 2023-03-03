@@ -1,0 +1,841 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    background-color: aliceblue;
+    width: 1200px;
+    height: 35px;
+    margin: auto;
+}
+.navbar ul{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul li{
+    display: inline;
+    padding: 7px;
+    font-weight: bold;
+    color: rgb(35, 53, 129);
+    cursor: pointer;
+}
+.navbar ul button{
+    background-color: aliceblue;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 60px;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul button:hover{
+    background-color: rgb(213, 196, 224);
+    border: none;
+}
+.home{
+    margin-left: 10px;
+}
+.category{
+    margin-left: 300px;
+}
+.login{
+    margin-left: 230px;
+}
+
+/* Navbar Ends */
+
+
+
+
+/* Main section */
+.main{
+    display: flex;
+}
+.poster{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.poster-image img{
+    height: 300px;
+    width: 500px;
+    padding-top: 0px;
+    border-radius: 0%;
+}
+.ambas img{
+    height: 300px;
+    width: 500px;
+}
+.poster-image{
+    float: left;
+}
+.ambas{
+    float: right;
+}
+.brand-name{
+    padding: 15px;
+    text-align: center;
+}
+/* Footer Section */
+footer{
+    background-color: aliceblue;
+    color: rgb(35, 53, 129);
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.contact{
+    margin-right: 40px;
+    float: right;
+    font-size: 12px;
+}
+.contact-icons{
+    padding-right: 15px;
+}
+
+.about{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.help{
+    float: left;
+    margin-left: 20%;
+    font-size: 12px;
+}
+.help a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.online-shopping{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.online-shopping p{
+    font-size: 12px;
+}
+.online-shopping p:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+.online-shopping button{
+    background-color: white;
+    float: left;
+    border: none;
+    color: rgb(35, 53, 129);
+    font-weight: 800;
+}
+
+
+.policy{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.policy a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-container{
+    display: flex;
+    justify-content: center;
+    margin: -1%;
+    margin-left: -10%;
+    margin-bottom: 40px;
+}
+.card{
+    background: white;
+    width: 150px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 50px;
+}
+.card h4{
+   text-align: center;
+}
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+
+#tb{
+    margin: 15px;
+    color: rgb(35, 53, 129);
+}
+.best-selling h3{
+    margin: 15px;
+    color: rgb(35, 53, 129);
+}
+
+.footware h3{
+    margin: 15px;
+    color: rgb(35, 53, 129);
+}
+.sports-wear h3{
+    margin: 15px;
+    color: rgb(35, 53, 129);
+}
+.trending-acc h3{
+    margin: 15px;
+    color: rgb(35, 53, 129);
+}
+.tag-line{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: rgb(35, 53, 129);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    /* right: 0px; */
+    left: 45%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    color: rgb(35, 53, 129);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 100px;
+}  
+#myBtn:hover {
+    background-color: rgb(35, 53, 129); /* Add a dark-grey background on hover */
+    color: white;
+}
+
+
+
+/* trying */
+
+.top-brands{
+    display: flex;
+    padding-left: 15%;
+    background-color: whitesmoke;
+}
+.top-container{
+    margin-top: 30px;
+}
+.top-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 130px;
+}
+
+
+.different-cat{
+    display: flex;
+    padding-left: 5%;
+    background-color: whitesmoke;
+}
+.cat-container{
+    margin-top: 40px;
+}
+.cat-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.footware{
+    display: flex;
+    padding-left: 5%;
+    background-color: whitesmoke;
+}
+.fot-container{
+    margin-top: 40px;
+}
+.fot-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.offer{
+    background-color: aliceblue;
+    box-shadow: 50px 0px 50px 0px rgb(201, 224, 245);
+    display: flex;
+}
+.offer video{
+    height: 200px;
+    width: 300px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.offer img{
+    height: 200px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0%;
+}
+.image1{
+    padding-left: 35px;
+    
+}
+.image2{
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Dropdown */
+
+/* .nav-links li a:hover{
+    background-color: rgb(213, 196, 224);
+} */
+.mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+
+.main{
+    width: 25%;
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links{
+    margin-left: -42px;
+    border-left: 1px solid white;
+} 
+ .mega-links li{
+    padding: 0 20px;
+}
+.mega-links li a{
+    padding: 0 30px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main p{
+    margin-left: -10px;
+}
+.mega-links li a{
+    margin-left: 10px;
+}
+.sp{
+    padding-left: 5px;
+}
+
+
+
+
+
+
+.mega-box-1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box-1{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+.content-1{
+    background-color: aliceblue;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-1{
+    width: 25%;
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main-1 p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links-1{
+    margin-left: -42px;
+    border-left: 1px solid white;
+} 
+ /* .mega-links-1 li{
+    padding: 0 20px;
+} */
+.mega-links-1 li a{
+    padding: 0 20px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main-1 p{
+    margin-left: -10px;
+}
+.mega-links-1 li a{
+    margin-left: 10px;
+}
+/* .sp{
+    padding-left: 5px;
+} */
+
+
+
+
+
+
+.mega-box-2{
+    position: absolute;
+    left: 0;
+    width: 75%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box-2{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+.content-2{
+    background-color: aliceblue;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-2{
+    /* width: 25%; */
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main-2 p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links-2{
+    margin-left: -42px;
+    border-left: 1px solid white;
+} 
+ /* .mega-links-1 li{
+    padding: 0 20px;
+} */
+.mega-links-2 li a{
+    padding: 0 20px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main-2 p{
+    margin-left: -10px;
+}
+.mega-links-2 li a{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-brands#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 600px; */
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    /* background: #fff; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+#popup1{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 600px; */
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    /* background: #fff; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup1.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+#cart{
+    width: 100px;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;    
+}  
+#cart:hover {
+    background-color: #038d5a; /* Add a dark-grey background on hover */
+}
+
+#wishlist{
+    width: 125px;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightcoral;
+    color: white; 
+    cursor: pointer;   
+}  
+#wishlist:hover {
+    background-color: orangered /* Add a dark-grey background on hover */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popup starts */
+
+.main-content{
+    height: 300px;
+    width: 750px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.product-content{
+    display: flex;
+}
+.image-content3{
+    margin-right: 200px;
+    margin-top: 25px;
+    height: 250px;
+}
+
+.writing-content h2{
+    padding: 10px;
+    color: rgb(35, 53, 129);
+}
+.writing-content p{
+    margin-left: 10px;
+}
+.caption{
+    color: gray;
+}
+.price{
+    padding: 10px;
+    color: rgb(35, 53, 129);
+}
+.price span{
+    color: orangered;
+}
+.size{
+    padding: 10px;
+    color: rgb(35, 53, 129);
+}
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+.button1 {
+      border-radius: 30px;
+}
+.button2 {
+    border-radius: 30px;
+}
+.button3 {
+    border-radius: 30px;
+}
+.button4 {
+    border-radius: 30px;
+}
+.button5 {
+    border-radius: 30px;
+}
+.button6 {
+    border-radius: 30px;
+}
+.button1:hover {
+    background-color: #038d5a;
+}
+.button2:hover {
+    background-color: #038d5a;
+}
+.button3:hover {
+    background-color: #038d5a;
+}
+.button4:hover {
+    background-color: #038d5a;
+}
+.button5:hover {
+    background-color: #038d5a;
+}
+.button6:hover {
+    background-color: #038d5a;
+}
+.details{
+    margin-left: 8px;
+    margin-top: 15px;
+    color: gray;
+}
+.details span{
+    font-weight: bold;
+}
+.size-details{
+    margin-left: 8px;
+    color: grey;
+}
+.size-details span{
+    font-weight: bold;
+}
+.material{
+    margin-left: 8px;
+    color: grey;
+}
+.material span{
+    font-weight: bold;
+}
+.look{
+    margin-left: 8px;
+    color: grey;
+}
+.look span{
+    font-weight: bold;
+}
+.specifications{
+    margin-left: 8px;
+    color: grey;
+}
+.specifications span{
+    font-weight: bold;
+}
+table{
+    color: gray;
+}
+#first{
+    padding-right: 200px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+#waist{
+    padding-top: 8px;
+}
+#second{
+    padding-left: 8px;
+    font-size: 12px;
+}
+#mid{
+    font-size: 12px;
+}
+#clean{
+    font-size: 12px;
+}
+
+.suggetions{
+    display: flex;
+}
+.card{
+    border: 1px solid white;
+    background-color: whitesmoke;
+    width: 150px;
+    height: 225px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.card img{
+    width: 150px;
+    height: 125px;
+}
+.card h3{
+    padding: 5px;
+    color: rgb(35, 53, 129);
+}
+.card p{
+    font-size: 14px;
+    color: gray;
+    padding: 5px;
+}
+.card h4{
+    padding: 5px;
+    color: rgb(35, 53, 129);
+}
+.card span{
+    color: orangered;
+}
+.close{
+    float: right;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 3px;
+}
+.close:hover{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+/* Popup Ends */

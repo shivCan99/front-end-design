@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    background-color: aliceblue;
+    width: 1200px;
+    height: 35px;
+    margin: auto;
+}
+.navbar ul{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul li{
+    display: inline;
+    padding: 7px;
+    font-weight: bold;
+    color: rgb(35, 53, 129);
+    cursor: pointer;
+}
+.navbar ul button{
+    background-color: aliceblue;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 60px;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul button:hover{
+    background-color: rgb(213, 196, 224);
+    border: none;
+}
+.home{
+    margin-left: 10px;
+}
+.category{
+    margin-left: 300px;
+}
+.login{
+    margin-left: 230px;
+}
+
+/* Navbar Ends */
+
+
+/* Dropdown */
+
+/* .nav-links li a:hover{
+    background-color: rgb(213, 196, 224);
+} */
+.mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+
+.main{
+    width: 25%;
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links{
+    margin-left: -42px;
+    border-left: 1px solid white;
+}
+ .mega-links li{
+    padding: 0 20px;
+}
+.mega-links li a{
+    padding: 0 30px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main p{
+    margin-left: -10px;
+}
+.mega-links li a{
+    margin-left: 10px;
+}
+.sp{
+    padding-left: 5px;
+}
+
+
+
+
+
+
+.mega-box-1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box-1{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+.content-1{
+    background-color: aliceblue;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-1{
+    width: 25%;
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main-1 p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links-1{
+    margin-left: -42px;
+    border-left: 1px solid white;
+}
+ /* .mega-links-1 li{
+    padding: 0 20px;
+} */
+.mega-links-1 li a{
+    padding: 0 20px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main-1 p{
+    margin-left: -10px;
+}
+.mega-links-1 li a{
+    margin-left: 10px;
+}
+/* .sp{
+    padding-left: 5px;
+} */
+
+
+
+
+
+
+.mega-box-2{
+    position: absolute;
+    left: 0;
+    width: 75%;
+    padding: 0 30px;
+    top: 100px;
+    /* opacity: 0; */
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box-2{
+    transition: all 0.7s;
+    top: 30px;
+    /* opacity: 1; */
+    visibility: visible;
+}
+.content-2{
+    background-color: aliceblue;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-2{
+    /* width: 25%; */
+    line-height: 30px;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+}
+.main-2 p{
+    color: rgb(35, 53, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links-2{
+    margin-left: -42px;
+    border-left: 1px solid white;
+}
+ /* .mega-links-1 li{
+    padding: 0 20px;
+} */
+.mega-links-2 li a{
+    padding: 0 20px;
+    color: rgb(35, 53, 129);
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+}
+.main-2 p{
+    margin-left: -10px;
+}
+.mega-links-2 li a{
+    margin-left: 10px;
+}
+
+/* Main starts */
+
+.main-images{
+    display: flex;
+    margin: 20px;
+    width: 400px;
+    float: left;
+    margin-left: 90px;
+    background-color: aliceblue;
+}
+.main-images img{
+    margin: 25px;
+    border-radius: 0;
+    width: 150px;
+    height: 250px;
+}
+.main-images1{
+    display: flex;
+    margin: 20px;
+    width: 400px;
+    float: left;
+    margin-left: 90px;
+    background-color: aliceblue;
+}
+.main-images1 img{
+    margin: 25px;
+    border-radius: 0;
+    width: 150px;
+    height: 250px;
+}
+.main-content h4{
+    margin-left: 200px;
+    color: rgb(35, 53, 129);
+}
+form{
+    margin-left: 350px;
+}
+form label{
+    font-weight: bold;
+    color: rgb(35, 53, 129);
+}
+#name{
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: gainsboro;
+    height: 20px;
+}
+#email{
+    margin-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: gainsboro;
+    height: 20px;
+}
+#contact{
+    margin-left: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: gainsboro;
+    height: 20px;
+}
+#adddress{
+    margin-left: 22px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: gainsboro;
+}
+#submit{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(213, 196, 224);
+    border: none;
+    font-weight: bold;
+    color: rgb(35, 53, 129);
+    margin-left: 85px;
+}
+#submit:hover{
+    background-color: rgb(208, 181, 226);
+    color: white;
+}
+.review{
+    margin-top: 75px;
+}
+.review h4{
+    color:  rgb(35, 53, 129);
+}
+.coupons{
+    margin-top: 50px;
+}
+
+.coupons label{
+    margin-top: 10px;
+    color: rgb(35, 53, 129);
+    font-weight: bold;
+    font-size: 12px;
+}
+#coupn{
+    border-radius: 20px;
+    background-color: gainsboro;
+    border: none;
+    height: 20px;
+}
+#apply{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(213, 196, 224);
+    color: rgb(35, 53, 129);
+    font-weight: bold;
+}
+#apply:hover{
+    background-color: rgb(208, 181, 226);
+    color: white;
+}
+.place-order{
+    margin-top: 20px;
+}
+#place{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(213, 196, 224);
+    color: rgb(35, 53, 129);
+    font-weight: bold;
+}
+#place:hover{
+    background-color: rgb(208, 181, 226);
+    color:white;
+}
+#order-placed{
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+#applied{
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: orangered;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: orangered;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: orangered;
+}
+
+
+
+.suggetions{
+    margin-top: 200px;
+    display: flex;
+}
+.card{
+    border: 1px solid white;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+}
+.card h3{
+    padding: 5px;
+    color: rgb(35, 53, 129);
+}
+.card p{
+    font-size: 14px;
+    color: gray;
+    padding: 5px;
+}
+.card h4{
+    padding: 5px;
+    color: rgb(35, 53, 129);
+}
+.card span{
+    color: orangered;
+}
+.close{
+    float: right;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 3px;
+}
+.close:hover{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Main Ends */
+
+
+/* Footer Section */
+footer{
+    background-color: aliceblue;
+    color: rgb(35, 53, 129);
+    font-weight: 300;
+    margin-top: 150px;
+}
+
+.contact{
+    margin-right: 40px;
+    float: right;
+    font-size: 12px;
+}
+.contact-icons{
+    padding-right: 15px;
+}
+
+.about{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.help{
+    float: left;
+    margin-left: 20%;
+    font-size: 12px;
+}
+.help a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.online-shopping{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.online-shopping p{
+    font-size: 12px;
+}
+.online-shopping p:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+.online-shopping button{
+    background-color: white;
+    float: left;
+    border: none;
+    color: rgb(35, 53, 129);
+    font-weight: 800;
+}
+
+
+.policy{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.policy a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tag-line{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: rgb(35, 53, 129);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+/* Footer Ends */

@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* Navbar*/
+.navbar{
+    background-color: aliceblue;
+    width: 1200px;
+    height: 35px;
+    margin: auto;
+}
+.navbar ul{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul li{
+    display: inline;
+    padding: 7px;
+    font-weight: bold;
+    color: rgb(35, 53, 129);
+    cursor: pointer;
+}
+.navbar ul li:nth-child(1){
+    margin-left: 20px;
+}
+.navbar ul li:nth-child(2){
+    margin-left: 850px;
+}
+.navbar ul button{
+    background-color: aliceblue;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-top: 0px;
+    width: 60px;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: rgb(35, 53, 129);
+}
+.navbar ul button:hover{
+    background-color: rgb(213, 196, 224);
+    border: none;
+}
+/* Navbar Ends */
+
+/* Main Class */
+.main{
+    background-image: url('/images/buying-bacckground.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.form{
+    margin-left: 50px;
+    padding-top: 40px;
+}
+.form label{
+    color: rgb(35, 53, 129);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.form input{
+    height: 20px;
+    width: 250px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#fname{
+    margin-left: 15px;
+}
+#lname{
+    margin-left: 15px;
+}
+#email{
+    margin-left: 32px;
+}
+#address{
+    margin-left: 38px;
+}
+#pass{
+    margin-left: 22px;
+}
+.form button{
+    width: 75px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: none;
+    color: rgb(35, 53, 129);
+    padding: 5px;
+    background-color: rgb(213, 196, 224);
+    margin-top: 20px;
+}
+.form button:hover{
+    background-color: rgb(208, 181, 226);
+}
+
+/* Footer Section */
+
+footer{
+    background-color: aliceblue;
+    color: rgb(35, 53, 129);
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.contact{
+    margin-right: 50px;
+    float: right;
+    font-size: 12px;
+}
+.contact-icons{
+    padding-right: 15px;
+}
+
+.about{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.policy{
+    float: left;
+    margin-left: 10%;
+    font-size: 12px;
+}
+.policy a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.help{
+    float: left;
+    margin-left: 15%;
+    font-size: 12px;
+}
+.help a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.online-shopping{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.online-shopping p{
+    font-size: 12px;
+}
+.online-shopping p:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+.online-shopping button{
+    background-color: white;
+    float: left;
+    border: none;
+    color: rgb(35, 53, 129);
+    font-weight: 800;
+}
+/* Footer Ends */
+
+.tag-line{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    color: rgb(35, 53, 129);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .navbar ul button{
+        font-size: 8px;
+    }
+    .form{
+        margin-left: 30px;
+    }
+    .form label{
+        font-size: 12px;
+    } 
+    .form button{
+        font-size: 12px;
+    }  
+    .contact{
+        font-size: 8px;
+    }
+    .about{
+        font-size: 8px;
+    }
+    .policy{
+        font-size: 8px;
+    }
+    .help{
+        font-size: 8px;
+    }
+    .online-shopping p{
+        font-size: 8px;
+    }
+    .tag-line{
+        font-size: 8px;
+    }
+    .form a{
+        font-size: 12px;
+    }
+
+}
